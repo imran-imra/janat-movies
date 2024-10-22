@@ -1,0 +1,233 @@
+*{
+    background-position: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body{
+    background-color: rgb(2, 77, 2);
+}
+nav{
+    background-color: blue;
+    display: flex;
+    color: white;
+    text-align: center; 
+    justify-content: space-between;
+    position: fixed;
+    height: fit-content;
+    width: 100%;
+}
+nav img{
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 2px;
+    width:10%;
+    height:10%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+    text-align: end;
+}
+nav ul li{
+display: inline-block;
+padding: auto;
+padding: 0px;
+list-style: none;
+align-items: center;
+}
+nav ul li a{
+    display: flex;
+    color: white;
+    text-align: end;
+    justify-content: space-between;
+    padding: 18px;
+    padding-top: 14px;
+    padding-bottom: 0%;
+    margin-right: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+nav h4{
+    margin-left: 20px;
+    padding-left: auto;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.main{
+    display: flex;
+     max-height: fit-content;
+     align-items: center;
+     text-emphasis: none;
+     text-decoration: none;
+ }
+ .main .items{
+ flex-direction: column;
+ padding: 5%;
+ margin-left:  40px;
+align-items: center;
+padding-bottom: 0%;
+padding-top: 0%;
+text-decoration: none;
+ }
+a{
+    text-decoration: none;
+    color: white;
+
+}
+ .main .items h5{
+     color: black;
+     position: below;
+     font-size: 20px;
+     text-align: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-decoration: none;
+
+}
+.main .items h5 a{
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    text-decoration: none;
+    color: blue;
+}
+.id{
+    columns: 2;
+    max-height: fit-content;
+    align-items: center;
+    text-emphasis: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+.id .item{
+    padding: 0%;
+    margin-left:  10px;
+   align-items: center;
+   padding-bottom: 40px;
+   padding-top: 0%;
+   font-size: 30px;
+   justify-content: center;
+}
+.id .item h5{
+    padding: 0%;
+    margin: 0%;
+    border-radius: 20%;
+}
+
+.id .item h5 a{
+    padding: 0%;
+    margin: 0%;
+    color: red;
+}
+.id .item h5 a:hover{
+    color: blue;
+}
+button{
+    background-color: brown;
+    position: absolute;
+    border-radius: 15%;
+    margin: 0px;
+    align-items: center;
+    display: inline block;
+    }
+button a{
+    padding: 0px;
+    text-decoration: none;
+    margin: 0px;
+    align-items: center;
+    display: inline block;
+}
+button a h1{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+button a h1:hover{
+    color: white;
+}
+footer{
+    height: fit-content;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    width: 100%;
+    align-items: center;
+}
+h2{
+    display: flex;
+    padding-left: 10px;
+}
+h3{
+    padding: 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.container{
+    display: flex;
+    columns: 3;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.container .content{
+    display: inline;
+    justify-content: space-between;
+    color: white;
+    padding-right: 70px;
+}
+.container .content h2{
+    display: inline;
+    margin-left: 70px;
+}
+.container .content h2 ul{
+display: inline;
+}
+.container .content h2 ul a{
+    color: white;
+    padding-right: 40%;
+}
+h3{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+form{
+    margin-left: 40px;
+}
+h6{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 90px;
+    padding-top: 90px;
+    margin: 0%;
+}
+p{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+
+
